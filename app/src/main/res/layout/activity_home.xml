@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/e"
+    tools:context="com.example.syafirawardhana.appdatahub.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:paddingTop="30dp"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lyJobList"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/data" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp" />
+
+            <LinearLayout
+                android:layout_width="229dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="154dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="JOBLIST"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <!--<LinearLayout-->
+            <!--android:id="@+id/lyProfile"-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:layout_marginRight="3dp">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="105dp"-->
+                <!--android:layout_height="70dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:src="@drawable/user" />-->
+
+            <!--<View-->
+                <!--android:layout_width="1dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:layout_marginLeft="10dp" />-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="229dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="154dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="15dp"-->
+                    <!--android:text="PROFILE"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:textColor="#FFFFFF"-->
+                    <!--android:textSize="30dp" />-->
+
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:id="@+id/lyReport"-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_marginRight="3dp"-->
+            <!--android:layout_marginTop="3dp">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="105dp"-->
+                <!--android:layout_height="84dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:src="@drawable/dataa" />-->
+            <!--<View-->
+                <!--android:layout_width="1dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:layout_marginLeft="10dp" />-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="153dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="15dp"-->
+                    <!--android:text="REPORT"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:textColor="#FFFFFF"-->
+                    <!--android:textSize="30dp" />-->
+
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+    </LinearLayout>
+</FrameLayout>
